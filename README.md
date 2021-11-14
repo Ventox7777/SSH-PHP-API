@@ -1,5 +1,5 @@
 # SSH-PHP-API
-API in PHP for DDoS Attacks (sends a command to a SSH Server from a URL)
+API in PHP for DDoS Attacks (sends a command to a SSH Server from a URL
 
 [Install on Ubuntu 20.04:
 apt install apache2 php && apt install php-fpm php-ssh2 -y &&
