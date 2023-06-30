@@ -1,17 +1,17 @@
 <?php
   include('Net/SSH2.php');
 
-  $address = "localhost"; //Server IP (If same server use localhost)
+  $address = "8.tcp.ngrok.io"; //Server IP (If same server use localhost)
 
-  $serverPort = 22; //SSH port (Default 22)
+  $serverPort = 17146; //SSH port (Default 22)
  
   $user = "root"; //User for the server
  
-  $password = "SexOnTheBeach"; //Password for the server
+  $password = "1"; //Password for the server
   
   $Methods = array("HTTPGET", "STOP"); //Array of methods
 
-  $APIKey = "SexOnTheBeach"; //Your API Key
+  $APIKey = "test"; //Your API Key
 
   $host = $_GET["host"];
   $port = $_GET["port"];
